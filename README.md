@@ -16,4 +16,7 @@
 ## El boceto a mano (como imagen agregada al README.md y a la carpeta
 images del directorio (cuarto commit))
 
-## 
+## Realizar un Mockup del home con HTML, CSS y Bootstrap (quinto commit).
+
+### Versionar todo a través de GIT y gestionarlo por GitHub.
+
