@@ -3,6 +3,7 @@
 ## El tema seleccionado
 
 	El tema elegido es "Página web vida sana de la comuna"
+	principalmente dirigido en las clases de Zumba distribuidas al rededor de todos los sectores, horarios y direcciones de las clases.
 
 ## Los objetivos para la interfaz (ui) y para la experiencia de usuario(ux).
 
