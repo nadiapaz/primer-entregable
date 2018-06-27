@@ -1,35 +1,70 @@
+
 # Primer entregable
 
 ## El tema seleccionado
 
 El tema elegido es "Página web vida sana de la comuna"
-	principalmente dirigido en las clases de Zumba Fitness distribuidas alrededor de todos los sectores de la comuna, horarios y direcciones de las clases.
+	Dirigido en las clases de Zumba Fitness distribuidas alrededor de todos los sectores de la comuna, horarios y direcciones de las clases.
+	y los recreos saludables realizados en las escuelas de la comuna.
 
-¿Porqué? siempre es escasa la difución de la información,por lo cual esta herramienta llega a suplir esa necesidad.
+¿Porqué? siempre es escasa la difusión de la información,por lo cual esta herramienta llega a suplir esa necesidad.
 
 ## Los objetivos para la interfaz (ui) y para la experiencia de usuario(ux).
 
-(ux) 
+(ux)
+
+Que es lo que podrán hacer en esta página web:
+
+- En la página principal podrán acceder al link clases, noticias, galeria.
+
+- tendrá publicaciones de noticias y actividades masivas a realizar en la comuna, como zumbatón, corridas solidarias, preventivos de salud. 
+
+- Publicacion de imágenes de las clases de zumba y recreos saludables; además de videos de las clases de zumba y recreos saludables.
+
+- Tambien tips saludables en relación a:
+
+1. Alimemtación.
+2. Ejercicios para practicar en casa.
+3. Calidad del aire.
+4. información (siempre actulizada) respecto de la modificación o suspensión de las actividades.
 
 -Qué es el producto.
 
 Este es un producto de caracter informativo que otorga a la comunidad Quilicurana, horarios y direccion de las clases de Zumba Fitness en el proyecto vida sana.
+además de videos e imágenes y testimonios de personas que participan activamente del programa.
+
+por otra parte da a conocer el programa de "Recreos saludables" dirigido a los alumnos más pequeños de distintos colegios de la comuna como el colegio Santiago de Quilicura, Escuela Ana frank, Santa Teresa de Quilicura, etc.
 
 -Quién está usando el producto.
 
 las Quilicuranas de deseen realizar actividad física a traves de unas entretenidas clases de Zumba.
 
+En el caso de los recreos saludables son los hijos de mujeres de quilicura quienes reciben este beneficio de llevar la actividad física a los recreos escolares.
+
 -Por qué lo usan.
 
 para mantenerce informadas de las clases con el objetivo de mejorar su condición física y llevar una vida sana.
+que es lo que podra hacer la persona en tu pagina
 
 (ui)
 
-Es la suma de una arquitectura de información + patrones de interacción +  elementos visuales.
+La interfaz de usuario será responsiva y de visualización rápida para ser vista en notebook y telefono móvil.
 
 Arquitectura de la información:
-Patrones de interacción:
-Elementos Visuales:
+
+a. Barra de navegación (con 3 botones que dirigen a otras páginas)
+
+b. Header;con videos 
+
+c. Blog; con imagenes interactivas e información actualizada.
+
+d. Features; con tips faciles de comprender y ejecutar.
+
+e. Footer; con información de contacto.
+
+Patrones de interacción: botones, videos, imágenes, iconos, formulario de contacto, mapas.
+
+Elementos Visuales: utilizaré fondo blanco y variedad de colores y tipografía moderna.
 
 
 ## Los requerimientos del sitio.
@@ -66,31 +101,48 @@ Elementos Visuales:
 3. Definición de las clases en la página web:
 
 - en el navbar
+
 navbar__zumba
+
 navbar__logo__zumba
+
 Botones: clases__zumba
+
          Noticias__zumba
+         
          Galeria__zumba
 
 - en el header
+
 Header__zumba
+
 header__video__zumba
+
 Boton__video
 
 
 - en el blog
+
 Blog__zumba
+
 img__blog
+
 img2__blog
+
 img3__blog
 
 - En features
+
 Features__zumba
+
 img__features
+
 img2__features
 
 -En footer
+
 Footer__zumba
+
 logo__footer
 
 
@@ -117,24 +169,18 @@ Visual:fuentes usadas de "google fonts".
  para parrafos y otros elementos: font-family: 'Catamaran', sans-serif
 
  Colores: 
+
  - Base de todas las letras= #302e2e
  - Para botones y backgrounds=  #ed3462
  - Para  barra de navegacion y footer= #fcf2f2
  - Letras de barra de navegación y footer= #2b2626
 
  Imágenes: 
- -contenidas dentro de carpeta imágenes.
+ -contenidas dentro de carpeta imágenes,(serán realaes ).
 
 ## La definición de layout (tipo de página).
 
 -Será tipo blog.
-
-## El boceto a mano (como imagen agregada al README.md y a la carpeta
-images del directorio (cuarto commit))
-
-## Realizar un Mockup del home con HTML, CSS y Bootstrap (quinto commit).
-
-### Versionar todo a través de GIT y gestionarlo por GitHub.
 
 #### imágen maqueta
 ![]( assets/img/maqueta-final.jpg)
