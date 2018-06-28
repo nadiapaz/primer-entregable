@@ -62,7 +62,7 @@ d. Features; con tips faciles de comprender y ejecutar.
 
 e. Footer; con información de contacto.
 
-Patrones de interacción: botones, videos, imágenes, iconos, formulario de contacto, mapas.
+Patrones de interacción: botones, videos, imágenes, iconos, formulario de contacto, mapas, calculo de IMC.
 
 Elementos Visuales: utilizaré fondo blanco y variedad de colores y tipografía moderna.
 
@@ -106,11 +106,12 @@ navbar__zumba
 
 navbar__logo__zumba
 
-Botones: clases__zumba
+Botones: 
+clases__zumba
 
-         Noticias__zumba
+Noticias__zumba
          
-         Galeria__zumba
+Galeria__zumba
 
 - en el header
 
@@ -162,20 +163,27 @@ logo__footer
 
 - Contenidos: De carácter informativo. 
 
-Visual:fuentes usadas de "google fonts".
+Visual:
 
- para los títulos: font-family: 'Work Sans', sans-serif
+fuentes usadas de "google fonts".
 
- para parrafos y otros elementos: font-family: 'Catamaran', sans-serif
+ para los títulos: font-family: 'Shadows Into Light Two', cursive;
+
+ para parrafos y otros elementos: font-family: 'Poor Story', cursive;
 
  Colores: 
+ - Base para las letras en h1= #fffcfc
 
- - Base de todas las letras= #302e2e
- - Para botones y backgrounds=  #ed3462
- - Para  barra de navegacion y footer= #fcf2f2
- - Letras de barra de navegación y footer= #2b2626
+ - Base de todas las letras h2= #302e2e
+
+ - Base de todas los titulos h3,h4,h5,h6= #fffcfc
+ 
+ - Para  barra de navegacion y footer= #fffcfc
+
+ - Letras de barra de navegación y footer= #302e2e y #0040a8
 
  Imágenes: 
+ 
  -contenidas dentro de carpeta imágenes,(serán realaes ).
 
 ## La definición de layout (tipo de página).
@@ -183,7 +191,7 @@ Visual:fuentes usadas de "google fonts".
 -Será tipo blog.
 
 #### imágen maqueta
-![]( assets/img/maqueta-final.jpg)
+![]( assets/img/maqueta2.jpg)
 #### imágen html
 #### imágen css
 
