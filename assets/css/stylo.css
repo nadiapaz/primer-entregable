@@ -1,7 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Work+Sans');
 body{
 	margin: 0;
+	padding-top: 150px; 
+	background-image: 
 }
-h1{
-	font-size: 200px;
-	color:#302e2e;
+/* nav*/
+
+.navbar__logo__zumba{
+	border-radius: 50%;
 }
+
+ul li{
+	float: right;
+	padding:5px;
+}
+
+.container ul li{
+	list-style: none;
+	display: inline;
+	margin:15px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 26px;
+
+
+}
+
+/*header*/
+.row h1{
+	color: white;
+	font-size: 100px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+}
+
+
+
+.container{
+	background-color: ;
+	
+}
+
+.header{
+	width: 88rem;
+ 	margin-top: 10px; 
+ 	border: 10px; 
+ 	border-style: solid; color:black; 
+ 	border-radius: 20px;
+ 	margin-left: 10%;
+}
+
+.header__img{
+	border-radius: 50%;
+	margin-left: 40%;
+
+}
+.card-title{
+	text-align: center;
+}
+
+p{
+	margin: 10px;
+	padding: 15px;
+}
+
+/* blog*/
+
+.container h2{
+	color: white;
+	font-size: 80px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+}
+
+.card{
+	border-color:white;
+	border-radius: 20px;
+	border-width: 8px;
+	border-style: solid; color:black; 
+	margin: 7px;
+	color: white;
+}
+
+.card-body p{
+	text-align: center;
+	color: white;
+}
+.card-text p{
+	color: black;
+}
+.
+.btn-primary{
+	background-color: #eeeeee;
+	color: black;
+	border-color: #d8d8d8;
+
+}
+.section1{
+	margin: 20px 30px 20px 30px;
+
+}
+.card-img-top{
+	margin-left: 40%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+/* footer*/
+
+.copyright{
+	background-color:white;
+	margin-top:0px;
+	position:
+}
+.footer__logo{
+	width: 10%;
+	height: 10%;
+}
+
+
+
