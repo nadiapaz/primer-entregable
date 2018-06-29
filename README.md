@@ -4,8 +4,7 @@
 ## El tema seleccionado
 
 El tema elegido es "Página web vida sana de la comuna"
-	Dirigido en las clases de Zumba Fitness distribuidas alrededor de todos los sectores de la comuna, horarios y direcciones de las clases.
-	y los recreos saludables realizados en las escuelas de la comuna.
+	Dirigido en las clases de Zumba Fitness distribuidas alrededor de todos los sectores de la comuna, horarios y direcciones de las clases. por otra parte los recreos saludables realizados en las escuelas de la comuna.
 
 ¿Porqué? siempre es escasa la difusión de la información,por lo cual esta herramienta llega a suplir esa necesidad.
 
@@ -100,7 +99,7 @@ Elementos Visuales: utilizaré fondo blanco y variedad de colores y tipografía 
 
 3. Definición de las clases en la página web:
 
-- en el navbar
+- En el navbar
 
 navbar__zumba
 
@@ -113,7 +112,7 @@ Noticias__zumba
          
 Galeria__zumba
 
-- en el header
+- En el header
 
 Header__zumba
 
@@ -122,7 +121,7 @@ header__video__zumba
 Boton__video
 
 
-- en el blog
+- En el blog
 
 Blog__zumba
 
@@ -140,7 +139,7 @@ img__features
 
 img2__features
 
--En footer
+- En footer
 
 Footer__zumba
 
@@ -183,7 +182,7 @@ fuentes usadas de "google fonts".
  - Letras de barra de navegación y footer= #302e2e y #0040a8
 
  Imágenes: 
- 
+
  -contenidas dentro de carpeta imágenes,(serán realaes ).
 
 ## La definición de layout (tipo de página).
@@ -191,7 +190,8 @@ fuentes usadas de "google fonts".
 -Será tipo blog.
 
 #### imágen maqueta
-![]( assets/img/maqueta2.jpg)
-#### imágen html
-#### imágen css
+![]( assets/img/maqueta2.jpg) 
+
+#### imágen maqueta celular
+![]( assets/img/movil.jpg)
 
