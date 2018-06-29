@@ -43,7 +43,6 @@ En el caso de los recreos saludables son los hijos de mujeres de quilicura quien
 -Por qué lo usan.
 
 para mantenerce informadas de las clases con el objetivo de mejorar su condición física y llevar una vida sana.
-que es lo que podra hacer la persona en tu pagina
 
 (ui)
 
@@ -150,7 +149,7 @@ logo__footer
 
 1. La página web debe ser responsiva.
 
-- Debe dar información y difución de las actividades.
+- Debe dar información y difusión de las actividades.
 
 - La información debe ser clara y dinámica incluir fotos, videos y experiencia de las mujeres que asisten a clases regularmente y participan de las actividades.
 
@@ -171,19 +170,21 @@ fuentes usadas de "google fonts".
  para parrafos y otros elementos: font-family: 'Poor Story', cursive;
 
  Colores: 
- - Base para las letras en h1= #fffcfc
+ - Base para titulos h1= #fffcfc
 
- - Base de todas las letras h2= #302e2e
+ - Base para titulos h2= #302e2e
 
- - Base de todas los titulos h3,h4,h5,h6= #fffcfc
+ - Base de todos los titulos h3,h4,h5,h6= #fffcfc
  
  - Para  barra de navegacion y footer= #fffcfc
 
  - Letras de barra de navegación y footer= #302e2e y #0040a8
 
+ - Base para los parrafos= #fffcfc y #302e2e 
+
  Imágenes: 
 
- -contenidas dentro de carpeta imágenes,(serán realaes ).
+ - contenidas dentro de carpeta imágenes,(serán realaes ).
 
 ## La definición de layout (tipo de página).
 
