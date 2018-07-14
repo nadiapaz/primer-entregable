@@ -1,3 +1,11 @@
+#Estimada Profesora Trini:
+
+agrego los elementos faltantes, los que corrigio en la pauta, como el uso del viewport en html y css.
+también el uso de grillas para que sea responsivo.
+además de los cambios de colores para que se lea mejor el contenido.
+
+Si tengo dudas con el uso de las media Queries, las integre pero no supe si de forma correcta.
+Saludos y gracias.
 
 # Primer entregable
 
