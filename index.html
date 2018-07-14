@@ -4,6 +4,8 @@
 	<!-- main styles-->
 <link rel="stylesheet" type="text/css" href="assets/css/stylo.css">
 	<meta charset="utf-8">
+<!--viewport-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -15,26 +17,35 @@
 <body>
 
 	<!--Nav-->
+<nav class="navbar navbar-inverse">
+   <div class="container-fluid">
 
-	<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-  	<ul>
-  		<img class="navbar__logo__zumba" src="assets/img/zumba-fitness.png">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="navbar__logo__zumba" src="assets/img/logo-pequeño.jpg"></a>
+    </div>
 
-  		<li> <a class="nav-link" href="clases.html">clases</a></li>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="clases.html">Clases</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="imagenes.html">Imágenes</a></li>
+        <li><a href="experiencias.html">Experiencias</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
 
-  		<li> <a class="nav-link" href="noticias.html">noticias</a> </li>
-
-  		<li> <a class="nav-link" href="imagenes.html">imágenes</a> </li>
-
-      <li> <a class="nav-link" href="experiencias.html">experiencias</a> </li>
-
-      <li> <a class="nav-link" href="videos.html">videos</li>
-
-        <li> <a class="nav-link" href="contacto.html">contacto</li>
-  	</ul>
-  </div>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+	
 
 <!--Background-->
 
@@ -46,7 +57,7 @@
     <div class="video__inner">
     </div>
   </section>
-  <!--Header-->
+<!--Header-->
 
   <div class="row">
 	<h1><i class="fas fa-walking"></i>VIDA SANA</h1>
@@ -90,7 +101,8 @@
     <img class="card-img-top" src="assets/img/logo-pequeño.jpg">
       <div class="card-body">
         <h5 class="card-title">Título Foto 2</h5>
-          <p class="card-text"><small class="text-muted">Zumba es una disciplina fitness creada a mediados de los años 1990 por el colombiano Alberto "Beto" Pérez,​ enfocada por una parte a mantener un cuerpo saludable y por otra a desarrollar, fortalecer y dar flexibilidad al cuerpo mediante movimientos de baile combinados con una serie de rutinas aeróbicas.</small></p>
+          <p class="card-text">
+        <small class="text-muted">Zumba es una disciplina fitness creada a mediados de los años 1990 por el colombiano Alberto "Beto" Pérez,​ enfocada por una parte a mantener un cuerpo saludable y por otra a desarrollar, fortalecer y dar flexibilidad al cuerpo mediante movimientos de baile combinados con una serie de rutinas aeróbicas.</small></p>
       
       </div>
   </div>
@@ -111,10 +123,10 @@
 <hr>
 <h3>TIPS DE ALIMENTACIÓN <i class="fas fa-utensils"></i></h3>
 
-<div class="row">
-  <div class="col-xs-12 col-md-8">
-  	<img src="assets/img/logo-pequeño.jpg">.col-xs-12 col-md-8</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4 	
+<div class="row" style="border-style: solid; color:black;">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<img src="assets/img/logo-pequeño.jpg">.</div>
+  <div class="col-lg-4 col-md-6 col-sm-12">. 	
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -122,10 +134,10 @@
 </div>
 
 <h4> CALIDAD DEL AIRE <i class="fas fa-cloud"></i></h4>
-<div class="row">
-  <div class="col-xs-12 col-md-8">
-  	<img class="" src="assets/img/calidad-del-aire-stgo.png">.col-xs-12 col-md-8</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4
+<div class="row" style="border-style: solid; color:black;">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<img class="" src="assets/img/calidad-del-aire-stgo.png">.</div>
+  <div class="col-lg-4 col-md-6 col-sm-12">.
   <p>Lorem ipsum dolor sit p, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -134,18 +146,28 @@
 
 <h6> EJERCITA EN CASA <i class="fas fa-home"></i> </h6>
 
-<div class="row">
-  <div class="col-xs-12 col-md-8"> <p>
+<div class="row" style="border-style: solid; color:black;margin: 10px;">
+  <div class="col-lg-4 col-md-6 col-sm-12"> <p>
   	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	.col-xs-12 col-md-8</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4 
+  	consequat.</p>
+  	</div>
+  <div class="col-lg-4 col-md-6 col-sm-12"> 
   	<img class="features__img" src="assets/img/danza.png">
   </div>
+</div>
+
+<div class="row" style="border-style: solid; color:black;margin: 10px;">
+  <div class="col-lg-4 col-md-6 col-sm-12"> 
+    <img class="features__img" src="assets/img/danza.png">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12"> <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.</p>
+    </div>
 </div>
 
 <hr>
@@ -229,8 +251,8 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3">
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> </a>
     </div>
     <!-- Copyright -->
 

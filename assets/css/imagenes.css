@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Work+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+.container h2{
+	color:#302e2e;
+	font-size: 80px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+
+}
+
+p{
+	color:#302e2e;
+	font-size: 80px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+
+}

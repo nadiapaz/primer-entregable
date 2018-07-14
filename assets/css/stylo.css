@@ -1,37 +1,52 @@
 
+/*media*/
+@media screen and (min-width: 780px) and (max-width: 1024px){
+
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+}
+@media screen and (max-width: 480px) {
+
+}
+/* viewport*/
+@viewport{
+
+    zoom: 1.0;
+    width:device-width;
+}
+
+/*tipo de letra*/
+
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Work+Sans');
 
 @import url('https://fonts.googleapis.com/css?family=Poor+Story');
 
+/*body*/
 body{
-	margin: 0;
-	padding-top: 150px; 
-	background-image: 
+	margin: 0; 
 }
 /* nav*/
 
 .navbar__logo__zumba{
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
 }
 
 ul li{
-	float: right;
-	padding:5px;
-}
-
-.container ul li{
 	list-style: none;
 	display: inline;
-	margin:15px;
+	margin:5px;
 	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 26px;
-
+	font-size: 15px;
+	height:60px;
 
 }
 
 /*header*/
 .row h1{
-	color:#fffcfc;
+	color:black;
 	font-size: 100px;
 	font-family: 'Shadows Into Light Two', cursive;
 	text-align: center;
@@ -56,6 +71,7 @@ ul li{
 .header__img{
 	border-radius: 50%;
 	margin-left: 40%;
+	max-width: 420
 
 }
 .card-title{
@@ -84,15 +100,15 @@ p{
 	border-width: 8px;
 	border-style: solid; color:black; 
 	margin: 7px;
-	color:#fffcfc;
+	color:black;
 }
 
 .card-body p{
 	text-align: center;
-	color:#fffcfc;
+	color:black;
 }
 .card-text p{
-	color: black;
+	color: pink;
 }
 .
 .btn-primary{
@@ -109,6 +125,10 @@ p{
 	margin-left: 40%;
 	margin-top: 7px;
 	margin-bottom: 7px;
+}
+
+.card-text{
+	background-color: white;
 }
 
 /* features*/
@@ -144,6 +164,7 @@ p{
 	font-family: 'Shadows Into Light Two', cursive;
 	color:#fffcfc;
 }
+
 /* footer*/
 
 .copyright{
