@@ -9,22 +9,17 @@
 @media screen and (max-width: 480px) {
 
 }
-/* viewport*/
-@viewport{
-
-    zoom: 1.0;
-    width:device-width;
-}
 
 /*tipo de letra*/
-
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Work+Sans');
-
-@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 
 /*body*/
+
 body{
 	margin: 0; 
+	font-family:'Oxygen', sans-serif;
+	font-weight: 400;
+
 }
 /* nav*/
 
@@ -35,28 +30,53 @@ body{
 }
 
 ul li{
-	list-style: none;
-	display: inline;
-	margin:5px;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 15px;
-	height:60px;
-
+	font-size: 20px;
 }
 
 /*header*/
-.row h1{
-	color:black;
-	font-size: 100px;
-	font-family: 'Shadows Into Light Two', cursive;
+h1{
+	font-weight: 700;
 	text-align: center;
+	margin: 25px;
+	font-size: 50px;
 }
 
+h2{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
 
+}
 
-.container{
-	background-color: ;
-	
+h3{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size:50px;
+
+}
+
+h4{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
+}
+
+h5{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
+}
+
+h6{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
+
 }
 
 .header{
@@ -79,43 +99,35 @@ ul li{
 }
 
 p{
-	margin: 10px;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
 	padding: 15px;
-	font-family: 'Poor Story', cursive;
-	font-size: 25px;
 }
 
 /* blog*/
+.blog_alimentacion{
+	color: white;
+	display: inline-block;
+}
+.blog_aire{
+	color: white;
+	display: inline-block;
+}
+.blog_ejercita{
+	color: white;
+	display: inline-block;
+	padding: 15px;
 
-.container h2{
-	color:#302e2e;
-	font-size: 80px;
-	font-family: 'Shadows Into Light Two', cursive;
-	text-align: center;
 }
 
 .card{
-	border-color:white;
-	border-radius: 20px;
-	border-width: 8px;
-	border-style: solid; color:black; 
+	border-color:#338eb2;
+	border-radius:20px;
+	border-width:8px;
+	border-style:solid; color:black; 
 	margin: 7px;
 	color:black;
-}
-
-.card-body p{
-	text-align: center;
-	color:black;
-}
-.card-text p{
-	color: pink;
-}
-.
-.btn-primary{
-	background-color: #eeeeee;
-	color: black;
-	border-color: #d8d8d8;
-
 }
 .section1{
 	margin: 20px 30px 20px 30px;
@@ -131,53 +143,47 @@ p{
 	background-color: white;
 }
 
+.alimentacion{
+	margin-left: 15px;
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+}
+
+.aire{
+	margin-left:50px;
+	padding: 15px;
+	width:100%;
+	height:100%;
+
+}
+
 /* features*/
-.container h3{
-	color:#fffcfc;
-	font-size: 80px;
-	font-family: 'Shadows Into Light Two', cursive;
-	text-align: center;
-	margin: 15px;
-	padding: 25px;
-}
-.container h4{
-	color:#fffcfc;
-	font-size: 80px;
-	font-family: 'Shadows Into Light Two', cursive;
-	text-align: center;
-	margin: 15px;
-	padding: 25px;
+
+.row{
+	background-color:#338eb2;
 }
 
-.container h6{
-	color:#fffcfc;
-	font-size: 80px;
-	font-family: 'Shadows Into Light Two', cursive;
-	text-align: center;
-	margin: 15px;
-	padding: 25px;
+.features__img{
+
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+}
+.activo{
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+	padding: 15px;
 
 }
 
-.calcula{
-	font-size: 20px;
-	font-family: 'Shadows Into Light Two', cursive;
-	color:#fffcfc;
+.features_imc{
+	color: white;
+	background-color: black;
+	margin: 10px;
+	padding: 10px;
 }
 
 /* footer*/
-
-.copyright{
-	background-color:black;
-	margin-top:0px;
-}
-.footer__logo{
-	width: 10%;
-	height: 10%;
-	float: left;
-	padding: 3px;
-	margin: 0px;
-}
-
-
 

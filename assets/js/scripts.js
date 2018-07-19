@@ -1,7 +1,8 @@
 
-
-<script type="text/javascript">
-      $("p").addClass("red");
-      $("p").css("color", "red");
-    </script>
-    
+.clase{
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: gray; 
+}

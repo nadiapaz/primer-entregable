@@ -2,8 +2,10 @@ body{
 	margin: 0;
 	font-family:'Oxygen', sans-serif;
 	font-weight: 400;
+
 }
 
+/*Tipo de letra*/
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 
 h1{
@@ -13,34 +15,43 @@ h1{
 	font-size: 50px;
 }
 
-/* nav*/
-
+/*navbar*/
 .navbar__logo__zumba{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
 
-#carouselExampleFade{
-	width: 60%;
-	margin-left: 20%;
+ul li{
+	font-size: 20px;
 }
+
+/*Header*/
 h2{
 	font-weight: 700;
 	text-align: center;
 	margin: 25px;
-	font-size: 50px;
-
+	font-size: 30px;
 }
-.img-fluid{
-	height: 30%;
-	width: 30%;
+p{
+	font-size: 20px;
 }
 
-.clase{
-    -webkit-filter: grayscale(100%);
-    -moz-filter:    grayscale(100%);
-    -ms-filter:     grayscale(100%);
-    -o-filter:      grayscale(100%);
-    filter: gray; 
+#mapa{
+	text-align: center;
 }
+.header_img{
+	text-align: center;
+	background-color: #1a89dd;
+}
+h3{
+	font-weight: 700;
+	text-align: left;
+	margin: 25px;
+	font-size: 30px;
+}
+ul li{
+	display: inline;
+	margin: 20px;
+}
+
