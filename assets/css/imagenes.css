@@ -15,20 +15,21 @@ h1{
 
 /* nav*/
 
+ul li{
+	font-size: 18px;
+}
+
 .navbar__logo__zumba{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
 
-ul li{
-	font-size: 17px;
-}
-
 #carouselExampleFade{
 	width: 60%;
 	margin-left: 20%;
 }
+
 h2{
 	font-weight: 700;
 	text-align: center;

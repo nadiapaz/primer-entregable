@@ -35,3 +35,29 @@ p{
 	margin-left: 20px;
 	padding: 15px;
 }
+h2{
+	font-weight: 700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
+
+}
+
+.card{
+		width: 18rem;
+		margin-top: 20px;
+		border: 5px; 
+		border-style: solid; 
+		color:#399b15; 
+		border-radius: 10px
+
+}
+.btn-primary{
+		background-color: #eeeeee;
+		border-color: #eeeeee;
+		color: #686363;
+}
+
+.card-text{
+		color:#b05fb5;
+}
