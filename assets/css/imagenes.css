@@ -21,6 +21,10 @@ h1{
 	border-radius: 50%;
 }
 
+ul li{
+	font-size: 17px;
+}
+
 #carouselExampleFade{
 	width: 60%;
 	margin-left: 20%;
@@ -35,6 +39,14 @@ h2{
 .img-fluid{
 	height: 30%;
 	width: 30%;
+	margin: 4px;
+	padding: 4px;
+	border-color:#ffbf00;
+	border-radius:20px;
+	border-width:5px;
+	border-style:solid; color:black; 
+	margin: 7px;
+	color:black;
 }
 
 .clase{
@@ -43,4 +55,11 @@ h2{
     -ms-filter:     grayscale(100%);
     -o-filter:      grayscale(100%);
     filter: gray; 
+}
+
+p{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+	padding: 15px;
 }
