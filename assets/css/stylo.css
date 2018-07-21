@@ -1,14 +1,4 @@
 
-/*media*/
-@media screen and (min-width: 780px) and (max-width: 1024px){
-
-}
-@media screen and (min-width: 480px) and (max-width: 780px){
-
-}
-@media screen and (max-width: 480px) {
-
-}
 
 /*tipo de letra*/
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
@@ -211,4 +201,23 @@ label {
     text-align: right;
 }
 
+/*delegación de eventos*/
+
+.highlighted{
+	background-color: #338eb2;
+}
+
+#example{
+	background-color: #fcf9f9;
+}
+
+button{
+	background-color: #85bbfc;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 5px;
+	width: 100px;
+	margin: 35px auto;
+}
 

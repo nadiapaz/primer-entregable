@@ -14,7 +14,7 @@
 <body>
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-  <a class="navbar-brand" href="index.html"><img class="navbar__logo__zumba img-fluid" src="assets/img/logo-pequeño.jpg" alt=""></a>
+  <a class="navbar-brand" href="index.html"><img class="navbar__logo__zumba" src="assets/img/logo-pequeño.jpg" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,19 +44,29 @@
 </nav>
 
 <h1>¿Quieres contactarte con nosotros?</h1>
-<div class="container-fluid">
+<div class="container">
 <p> Puedes elegir nuestros medios de difusión masivos, redes sociales, teléfonos de contacto, etc.</p>
 </div>
 
-<div class="container-fluid header_img">
-	<img src="assets/img/buscanos.png" alt="">
-	<img src="assets/img/emergencia.png" alt="">
-	<img src="assets/img/informacion.png" alt="">
-	<img src="assets/img/requisitos.png" alt="">
+<div class="container">
+<ul>
+  <li> <i class="fab fa-facebook"> <a class="btn btn-warning" href="https://www.facebook.com/SaludQuilicura/" target="_blank" role="button">picha aquí</a></i></li>
+  <li> <i class="fab fa-instagram"> <a class="btn btn-danger" href="https://www.instagram.com/saludquilicura/" target="_blank" role="button">picha aquí</a> </i></li>
+  <li> <i class="fab fa-twitter"></i> <a class="btn btn-warning" href="https://twitter.com/saludquilicura" target="_blank" role="button">picha aquí</a></li>
+  <li> <i class="fas fa-hand-point-up"></i> <a class="btn btn-danger" href="https://www.saludquilicura.cl/" target="_blank" role="button">picha aquí</a></li>
+</ul>
+</div>
+
+
+<div class="container header_img">
+	<img src="assets/img/buscanos.png" alt="" class="img-fluid">
+	<img src="assets/img/suri.png" alt="" class="img-fluid">
+	<img src="assets/img/emergencia.png" alt="" class="img-fluid">
+	<img src="assets/img/urgencia.png" alt="" class="img-fluid">
 </div>
 
 <h2> Consultorio Manuel Bustos</h2>
-<div class="container-fluid">
+<div class="container">
 <p>
 	Director: Carlos Miño Morales<br> 
 	Dirección: Lo Cruzat #0486<br>
@@ -65,18 +75,56 @@
 </div>
 
 <!--mapa-->
-<div class="container-fluid" id="mapa">
+<div class="google-maps" id="mapa">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13330.569974445883!2d-70.7203366!3d-33.3542886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89f0ef714eae011d!2sConsultorio+Manuel+Bustos!5e0!3m2!1ses-419!2scl!4v1531184028318" width="600" height="450" frameborder="0" style="border:0"allowfullscreen></iframe>
 </div>
 
-<h3>Buscanos en nuestras redes sociales salud Quilicura</h3>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
 
-<ul>
-	<li> <i class="fab fa-facebook"> <a class="btn btn-warning" href="https://www.facebook.com/SaludQuilicura/" role="button">picha aquí</a></i></li>
-	<li> <i class="fab fa-instagram"> <a class="btn btn-danger" href="https://www.instagram.com/saludquilicura/" role="button">picha aquí</a> </i></li>
-	<li> <i class="fab fa-twitter"></i> <a class="btn btn-warning" href="https://twitter.com/saludquilicura" role="button">picha aquí</a></li>
-	<li> <i class="fas fa-hand-point-up"></i> <a class="btn btn-danger" href="https://www.saludquilicura.cl/" role="button">picha aquí</a></li>
-</ul>
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left bg-danger">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold"></h5>
+          <p>"Quilicura avanza con más ganas"</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold"></h5>
+          <p>
+            "Proyecto página web mujeres programadoras Quilicura"
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Nadia Valderrama
+      <a href=""> MP Quilicura</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
 
 
 <!-- Jquery 3.3.1 -->

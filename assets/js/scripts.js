@@ -1,8 +1,9 @@
 
-.clase{
-    -webkit-filter: grayscale(100%);
-    -moz-filter:    grayscale(100%);
-    -ms-filter:     grayscale(100%);
-    -o-filter:      grayscale(100%);
-    filter: gray; 
-}
+
+$(document).ready(function() {
+  $("#example").on("click" ,"button.switch", function(){
+    console.log(this);
+    $(this).parent().toggleClass("highlighted");
+
+  });
+});
